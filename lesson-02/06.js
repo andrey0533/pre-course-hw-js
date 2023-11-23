@@ -8,6 +8,6 @@ let passportWithAddress = {
 };
 console.log(passportWithAddress);
 
-let deep = structuredClone(passportWithAddress);
+let deep = (passportWithAddress);
 deep.address.city = ('Bobryisk');
 console.log(deep);
